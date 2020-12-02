@@ -26,6 +26,6 @@ const Home = props => (<div>
   </div>);
 const AnotherPage = props => (<div>
   <h1>Another page</h1>
-  <img src={anotherImg} alt={"Another Image"}/>
+  <img src={anotherImg} alt={"Another Icon"}/>
   </div>)
 export default App;
