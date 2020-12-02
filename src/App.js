@@ -22,10 +22,10 @@ function App() {
 }
 const Home = props => (<div>
   <h1>Home</h1>
-  <img src={homeImg}/>
+  <img src={homeImg} alt={"Home Icon"}/>
   </div>);
 const AnotherPage = props => (<div>
   <h1>Another page</h1>
-  <img src={anotherImg}/>
+  <img src={anotherImg} alt={"Another Image"}/>
   </div>)
 export default App;
